@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/glidewell-demo" mode="merge"/>
+    <filter root="/content/glidewell-demo" mode="merge"/>
+    <filter root="/content/dam/glidewell-demo" mode="merge">
+        <exclude pattern="/content/dam/glidewell-demo(/.*)?"/>
+        <include pattern="/content/dam/glidewell-demo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/glidewell-demo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/glidewell-demo" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/glidewell-demo" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/glidewell-demo" mode="merge"/>
+    <filter root="/content/dam/glidewell-demo/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/glidewell-demo/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/glidewell-demo/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/glidewell-demo/af_model_sample.json" mode="merge"/>
+</workspaceFilter>
