@@ -14,4 +14,7 @@
     <filter root="/content/dam/glidewell-demo/sample_terms.png" mode="merge"/>
     <filter root="/content/dam/glidewell-demo/wknd_logo.png" mode="merge"/>
     <filter root="/content/dam/glidewell-demo/af_model_sample.json" mode="merge"/>
+
+    <filter root="/content/dam/formsanddocuments/testdentalsvg" mode="merge"/>
+    <filter root="/content/forms/af/testdentalsvg" mode="merge"/>
 </workspaceFilter>
