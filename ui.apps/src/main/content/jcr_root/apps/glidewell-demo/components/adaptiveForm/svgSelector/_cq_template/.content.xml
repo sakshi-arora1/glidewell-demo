@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:fd="http://www.adobe.com/aemfd/fd/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Svg Selector"
+    fieldType="panel"
+    layout="responsiveGrid">
+    <imageSelectionPanel
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Image Selection"
+        sling:resourceType="glidewell-demo/components/adaptiveForm/panelcontainer"
+        enabled="{Boolean}true"
+        fieldType="panel"
+        hideTitle="false"
+        name="imageSelectionPanel"
+        readOnly="{Boolean}false"
+        repeatable="false"
+        visible="{Boolean}true"
+        wrapData="{Boolean}false">
+        <svg
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="glidewell-demo/components/adaptiveForm/svg"/>
+    </imageSelectionPanel>
+    <accessibleSelectionPanel
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Accessible Selection"
+        sling:resourceType="glidewell-demo/components/adaptiveForm/panelcontainer"
+        enabled="{Boolean}true"
+        fieldType="panel"
+        hideTitle="false"
+        name="accessibleSelectionPanel"
+        readOnly="{Boolean}false"
+        repeatable="false"
+        visible="{Boolean}true"
+        wrapData="{Boolean}false">
+        <checkbox
+            fd:customPropertySelect="[1739262745045]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Check Box"
+            sling:resourceType="glidewell-demo/components/adaptiveForm/checkbox"
+            checkedValue="on"
+            enabled="{Boolean}true"
+            enableUncheckedValue="{Boolean}false"
+            fieldType="checkbox"
+            hideTitle="false"
+            name="checkbox1739262577094"
+            readOnly="{Boolean}false"
+            textIsRich="[true,true,true]"
+            type="string"
+            unboundFormElement="{Boolean}false"
+            uncheckedValue="off"
+            visible="{Boolean}true"/>
+    </accessibleSelectionPanel>
+</jcr:root>

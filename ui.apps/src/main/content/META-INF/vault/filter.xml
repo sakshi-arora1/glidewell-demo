@@ -2,6 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/glidewell-demo/clientlibs"/>
     <filter root="/apps/glidewell-demo/components"/>
+    <filter root="/apps/glidewell-demo/componentDef"/>
     <filter root="/apps/glidewell-demo/i18n"/>
     <filter root="/apps/fd/af/themes" mode="merge"/>
 
