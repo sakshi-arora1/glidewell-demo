@@ -20,4 +20,6 @@
 
     <filter root="/content/dam/formsanddocuments/testdentalsvg" mode="merge"/>
     <filter root="/content/forms/af/testdentalsvg" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments/glidewelldemoform" mode="merge"/>
+    <filter root="/content/forms/af/glidewelldemoform" mode="merge"/>
 </workspaceFilter>
