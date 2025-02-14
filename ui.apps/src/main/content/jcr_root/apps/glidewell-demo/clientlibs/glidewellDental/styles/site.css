@@ -1,0 +1,95 @@
+form .cmp-adaptiveform-wizard.cmp-adaptiveform-wizard--v2 {
+    margin: 0;
+}
+
+
+.cmp-adaptiveform-wizard__nav.cmp-adaptiveform-wizard__nav--next {
+    display: none;
+}
+
+
+
+.cmp-adaptiveform-wizard__tabs-container  {
+    display: none;
+}
+
+.cmp-adaptiveform-wizard .cmp-adaptiveform-wizard__containerNav {
+    justify-content: start;
+}
+
+.cmp-adaptiveform-wizard__containerNav .cmp-adaptiveform-wizard__nav--previous {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    padding: 8px;
+    background-color: inherit;
+    border-color: inherit;
+}
+
+.cmp-adaptiveform-wizard__containerNav .cmp-adaptiveform-wizard__nav--previous:hover {
+    background-color: inherit;
+    border-color: inherit;
+    box-shadow: none;
+}
+
+.cmp-adaptiveform-wizard__containerNav .cmp-adaptiveform-wizard__nav--previous::before {
+    content: "←";  /* Or you can use "⟵" for a longer arrow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #E8F0FE;  /* Light blue background */
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.cmp-adaptiveform-wizard__nav--previous::after {
+    content: "Back";
+}
+
+.cmp-adaptiveform-radiobutton__option {
+    margin: 5px 0;
+}
+
+.cmp-adaptiveform-radiobutton__widget .cmp-adaptiveform-radiobutton__option {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #fff;
+    width: fit-content;
+    margin: 10px;
+}
+
+/* Hide the default radio button */
+.cmp-adaptiveform-radiobutton__option__widget {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Style the text */
+.cmp-adaptiveform-radiobutton__option-label span {
+    font-size: 14px;
+    color: #333;
+}
+
+.cmp-adaptiveform-radiobutton__widget .cmp-adaptiveform-radiobutton__option:focus-within {
+    outline: 2px solid #3070f6;
+}
+
+/* Selected state */
+.cmp-adaptiveform-radiobutton__option:has(.cmp-adaptiveform-radiobutton__option__widget:checked) {
+    background-color: #5c8ddd;
+    border-color: #3070f6;
+}
+
+.cmp-adaptiveform-radiobutton__option__widget:checked + span {
+    font-weight: 500;
+    color: white;
+}

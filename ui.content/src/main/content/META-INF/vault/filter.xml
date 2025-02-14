@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/glidewell-demo" mode="merge"/>
+    <filter root="/conf/forms/glidewelldemoform" mode="merge"/>
+    <filter root="/conf/forms/testdentalsvg" mode="merge"/>
+
     <filter root="/content/glidewell-demo" mode="merge"/>
     <filter root="/content/dam/glidewell-demo" mode="merge">
         <exclude pattern="/content/dam/glidewell-demo(/.*)?"/>

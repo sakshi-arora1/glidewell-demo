@@ -359,13 +359,14 @@
                     </cq:authoring>
                 </policy_1575040440977>
                 <cc-af-header-policy
-                    jcr:lastModified="{Date}2023-06-07T15:48:33.506+05:30"
+                    jcr:description="Includes only Core Component Adaptive Form header component."
+                    jcr:lastModified="{Date}2025-02-13T09:47:41.178+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Core Component Adaptive Form Header Policy"
-                    jcr:description="Includes only Core Component Adaptive Form header component."
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="/apps/glidewell-demo/components/adaptiveForm/pageheader">
+                    components="[/libs/foundation/components/image,/apps/glidewell-demo/components/adaptiveForm/pageheader]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </cc-af-header-policy>
                 <cc-af-footer-policy
@@ -609,7 +610,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="glidwell-policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        clientlibs="[glidewell-demo.dependencies,glidewell-demo.site,svg-selector]"
+                        clientlibs="[glidewell-demo.dependencies,glidewell-demo.site,svg-selector,glidewell.dental]"
                         clientlibsAsync="false"
                         clientlibsJsHead="glidewell-demo.dependencies">
                         <jcr:content jcr:primaryType="nt:unstructured"/>

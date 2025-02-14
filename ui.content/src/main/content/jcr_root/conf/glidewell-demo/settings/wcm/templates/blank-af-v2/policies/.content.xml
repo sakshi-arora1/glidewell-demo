@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-            cq:policy="glidewell-demo/components/adaptiveForm/page/policy_1739281966127"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/core/components/policies/mappings">
+        cq:lastModified="{Date}2025-02-13T09:47:41.184+05:30"
+        cq:lastModifiedBy="admin"
+        cq:policy="glidewell-demo/components/adaptiveForm/page/policy_1739281966127"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
         <container1
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"
-                cq:policy="glidewell-demo/components/container/cc-af-header-policy"
-                layout="responsiveGrid"/>
+            cq:policy="glidewell-demo/components/container/cc-af-header-policy"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping"
+            layout="responsiveGrid"/>
         <guideContainer
             cq:policy="glidewell-demo/components/adaptiveForm/formcontainer/default"
             jcr:primaryType="nt:unstructured"
@@ -18,35 +20,37 @@
                 <components jcr:primaryType="nt:unstructured">
                     <adaptiveForm jcr:primaryType="nt:unstructured">
                         <numberinput
-                          cq:policy="glidewell-demo/components/adaptiveForm/numberinput/default"
-                          jcr:primaryType="nt:unstructured"
-                          sling:resourceType="wcm/core/components/policies/mapping"/>
+                            cq:policy="glidewell-demo/components/adaptiveForm/numberinput/default"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
                         <datepicker
-                          cq:policy="glidewell-demo/components/adaptiveForm/datepicker/default"
-                          jcr:primaryType="nt:unstructured"
-                          sling:resourceType="wcm/core/components/policies/mapping"/>
+                            cq:policy="glidewell-demo/components/adaptiveForm/datepicker/default"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
                         <telephoneinput
-                          cq:policy="glidewell-demo/components/adaptiveForm/telephoneinput/default"
-                          jcr:primaryType="nt:unstructured"
-                          sling:resourceType="wcm/core/components/policies/mapping"/>
+                            cq:policy="glidewell-demo/components/adaptiveForm/telephoneinput/default"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
                         <panelcontainer
-                          cq:policy="glidewell-demo/components/adaptiveForm/panelcontainer/default"
-                          jcr:primaryType="nt:unstructured"
-                          sling:resourceType="wcm/core/components/policies/mapping">
-                        </panelcontainer>
+                            cq:policy="glidewell-demo/components/adaptiveForm/panelcontainer/default"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
                         <switch
-                          cq:policy="glidewell-demo/components/adaptiveForm/switch/default"
-                          jcr:primaryType="nt:unstructured"
-                          sling:resourceType="wcm/core/components/policies/mapping">
-                        </switch>
+                            cq:policy="glidewell-demo/components/adaptiveForm/switch/default"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <checkbox
+                            cq:policy="glidewell-demo/components/adaptiveForm/checkbox/policy_1739262742306"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
                     </adaptiveForm>
                 </components>
             </glidewell-demo>
         </guideContainer>
         <container2
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"
-                cq:policy="glidewell-demo/components/container/cc-af-footer-policy"
-                layout="responsiveGrid"/>
+            cq:policy="glidewell-demo/components/container/cc-af-footer-policy"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping"
+            layout="responsiveGrid"/>
     </jcr:content>
 </jcr:root>
